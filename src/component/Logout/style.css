@@ -1,0 +1,101 @@
+.logout{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-forgot{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-link{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logout-img h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.logout-img img{
+    width: 150px;
+    height: 150px;
+}
+
+.logout-email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e6e5;
+    width: 300px;
+    border-radius: 4px;
+    height: 50px;
+}
+
+.logout-email input{
+    width: 260px;
+    height: 40px;
+    outline:  none;
+    border: none;
+    text-indent: 10px;
+}
+
+
+.logout-email:hover{
+    border-color: #0e6dfd;
+}
+
+
+
+.logout button{
+    width: 300px;
+    background-color: #0e6dfd;
+    height: 50px;
+    border-radius: 4px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.logout-btn{
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.logout-btn span a{
+    text-decoration: none;
+    color: #0e6dfd;
+}
+
+.logout-btn p a{
+    text-decoration: none;
+    color: #ff4033;
+}
